@@ -5,6 +5,7 @@ const Project = () => {
   return (
     <div>
       <h1 className='text-center font-extrabold text-3xl'>Projects</h1>
+      <p className='text-center py-5 text-xl'>A selection of some of my projects</p>
       <ProjectSection 
         img='/assets/deeco-banner.webp'
         title='Deeco.'
