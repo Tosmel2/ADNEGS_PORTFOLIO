@@ -14,7 +14,6 @@ const Project = () => {
       </div>
       
 
-
       <ProjectSection 
         img='/assets/deeco-banner.webp'
         title='Deeco.'
