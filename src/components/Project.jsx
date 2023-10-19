@@ -6,6 +6,15 @@ const Project = () => {
     <div>
       <h1 className='text-center font-extrabold text-3xl'>Projects</h1>
       <p className='text-center py-5 text-xl'>A selection of some of my projects</p>
+      <div className='flex justify-center w-full mb-5'>
+        <div className='text-center rounded-t-lg w-[30%] bg-gray-200 py-3 px-5'>
+          <a href="#" className='py-3 px-5 bg-blue-500 rounded-s-md font-semibold text-white'>Frontend Projects</a>
+          <a href="#" className='py-3 px-5 rounded-e-md bg-red-500 font-semibold text-white'>FullStack Projects</a>
+        </div>
+      </div>
+      
+
+
       <ProjectSection 
         img='/assets/deeco-banner.webp'
         title='Deeco.'

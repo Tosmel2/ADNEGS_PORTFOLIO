@@ -3,9 +3,9 @@ import ReuseButton from './utils/ReuseButton'
 
 const AboutMe = () => {
   return (
-    <div className='w-full py-16 border-2 border-red-500'>
-      <div className='w-[90%] md:w-[80%] mx-auto px-10'>
-        <h1 className='text-center font-extrabold text-3xl pb-5'>About Me</h1>
+    <div className='w-full py-16'>
+      <div className='w-[90%] md:w-[80%] mx-auto md:px-10 px-2'>
+        <h1 className='text-center font-bold text-2xl md:text-3xl pb-5'>About Me</h1>
         <div className='leading-10 text-center'>
         <p>I am a highly gifted and intelligent Nigerian, who is passionate about building ground-breaking inventions with code.</p>
         <p>I am currently a fullstack Javascript/Typescript developer(ReactJs/NextJs + NodeJs), a blockchain(Solidity) developer, and a technical writer.
